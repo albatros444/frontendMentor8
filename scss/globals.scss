@@ -1,0 +1,20 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  //   position: relative; ///for footer with absolute position
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+}
+textarea,
+input {
+  outline: none;
+}
